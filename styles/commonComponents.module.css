@@ -1,0 +1,143 @@
+/* ------------------------------- header style start -------------------*/
+.input_groups {
+  border-right: none;
+  background-color: #393c49;
+  color: white;
+  border-radius: 5px 0px 0px 5px;
+}
+.form_control {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #393c49;
+  border-left: none;
+  font-size: 14px;
+}
+
+.active_link {
+  padding-left: 0px;
+  color: #ea7c69;
+  font-weight: 500;
+}
+
+.active_border {
+  background-color: #ea7c69;
+  height: 4px;
+  border-radius: 20%;
+  margin-bottom: -20px;
+  width: 100%;
+}
+
+/* ------------------------------- left side bar style start -------------------*/
+
+.left_sidebar_parent {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.left_sidebar_child {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+.box {
+  width: 60px;
+  height: 50px;
+  margin-top: 5px;
+  position: relative;
+  background: #1f1d2b;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.box_2 {
+  position: relative;
+  float: left;
+  width: 5px;
+  margin-top: 5px;
+  padding: 15px 5px;
+  height: 70px;
+  position: relative;
+  background: #1f1d2b;
+}
+
+.box_2:before,
+.box_2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 10px;
+  width: 95%;
+  background: #393c49;
+}
+
+.box_2:before {
+  top: 0;
+  border-radius: 0 0 110px 0;
+}
+
+.box_2:after {
+  bottom: 0;
+  border-radius: 0 110px 0 0;
+}
+
+/* ------------------------------- right side bar style start -------------------*/
+.right_sidebar_parent {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.right_sidebar_child {
+  width: 100%;
+  height: 50vh;
+  overflow-y: auto;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+
+/*======== order products component=========*/
+.delete_product_icon {
+  background-color: #1f1d2b;
+  border-color: #ea7c69;
+  padding: 5px;
+  margin-top: -20px;
+}
+
+/* ------------------------------- make payment side nav style start -------------------*/
+.show_sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 60%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #1f1d2b; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.payment_side_nav_parent {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  margin: 10px;
+}
+.payment_side_nav_child {
+  width: 100%;
+  height: 70vh;
+  overflow-y: auto;
+  padding-right: 20px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+
+.payment_section {
+  width: 50%;
+  padding: 15px;
+  margin-top: 20px;
+}
+.activeBtn {
+  background-color: #ea7c69;
+}

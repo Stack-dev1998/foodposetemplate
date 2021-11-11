@@ -1,0 +1,34 @@
+.hr_div {
+  position: relative;
+  background-color: #fafafa;
+  margin-top: 0px;
+  height: 1px;
+}
+
+.hr_div #1st_hr {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+}
+
+.hr_div #on_active_border_botom {
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  border-radius: 20%;
+  background-color: red;
+}
+/*-------------------------- card style start------------------------ */
+.card {
+  position: relative;
+  height: 400px;
+}
+
+.card_text {
+  position: absolute;
+  background-color: #1f1d2b;
+  top: 50px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
